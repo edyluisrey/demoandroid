@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+    
+   <TextView android:id="@+id/tituloAbout" android:layout_width="fill_parent"  
+	android:layout_height="wrap_content" android:text="Editar Datos" 
+	android:textSize="30sp" android:textStyle="bold" android:layout_gravity="top"
+	android:gravity="center"/>
+   
+   <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" 
+    android:text="Nombres y Apellidos" android:textStyle="bold"/>
+   <EditText android:text="Nombre" 
+			  android:id="@+id/nombreeditar"
+			  android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="10px"/>
+   
+   <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" 
+    android:text="Direccion" android:textStyle="bold"/>
+   <EditText android:text="Av. Arequipa 123" 
+			  android:id="@+id/direccioneditar"
+			  android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="10px"/>
+   
+   <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" 
+    android:text="Email" android:textStyle="bold"/>
+   <EditText android:text="eaguirre378@gmail.com" 
+			  android:id="@+id/emaileditar"
+			  android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="10px"/>
+   
+   <Button android:text="Guardar Datos" 
+	android:id="@+id/guardaruser" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"></Button> 
+</LinearLayout>
+

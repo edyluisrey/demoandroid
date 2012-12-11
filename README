@@ -1,0 +1,19 @@
+EXPLICACION DEL CODIGO DEL PROYECTO DEMO
+
+EL demo tiene 6 clases:
+MainActivity.java es la clase principal que se encarga de mostrar el menú principal donde
+también se crea la base de datos en SQLite.
+
+UsuariosSQLiteHelper.java -. La clase de conexión creación de la base de datos con la siguiente
+estructura
+
+ACtividadPersonas.java -.Esta clase donde se obtiene en una lista todos los usuarios desde la
+base de datos y esta actividad es invocada desde MainActivity.java
+
+ACtividadPersonas.java -.Esta clase donde se obtiene en una lista todos los usuarios desde la
+base de datos y esta actividad es invocada desde MainActivity.java
+
+ActividadEditar.java-. Esta clase se encargar de actualizar información del usuario modificado
+
+ActividadMapa-.Esta clase se encargar de mostrar la mapa para esto se necesita crear un api
+Key de google.
